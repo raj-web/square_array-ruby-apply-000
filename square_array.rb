@@ -1,4 +1,8 @@
 def square_array(array)
-  numbers = [2,4,6,5423]
-  array.each do |i|
-end
+new_array []
+
+array.each do |i|
+new_array << i**2
+end 
+return new_array
+end 
